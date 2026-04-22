@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de Sharick">
+    <title>Sharick Olmos</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+ 
+<body>
+    <header>
+        <div class="header-logo">
+            <h1>Sharick Olmos</h1>
+        </div>
+ 
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="mascotas.html" class="link-mascotas">Mascotas</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+ 
+    <main>
+ 
+
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+ 
+            <p id="texto-presentacion">
+                Hola, soy Sharick. Soy desarrolladora de software en formación.
+                Me encanta aprender cosas nuevas, resolver problemas y construir
+                proyectos que tengan sentido. Estoy enfocada en analítica de datos
+                y cada día doy un paso más hacia esa meta.
+            </p>
+ 
+            <button id="btn-cambiar-texto" class="btn">
+                Leer más sobre mí
+            </button>
+        </section>
+ 
+ 
+        <div id="mensaje-bienvenida">
+            <p>Holamm Gracias por visitar mi portafolio. Espero que te guste lo que encontrarás aquí.</p>
+        </div>
+ 
+        <div class="centrado">
+            <button id="btn-bienvenida" class="btn">Mostrar bienvenida</button>
+        </div>
+ 
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+ 
+            <div class="proyectos-grid">
+
+                <div class="tarjeta-proyecto">
+                    <h3>Vibe.Gems</h3>
+                    <p>Sitio web personal desplegado en producción con diseño propio.</p>
+                    <a href="https://vibegemss.netlify.app/" target="_blank" class="btn-proyecto">Ver proyecto →</a>
+                </div>
+
+                <div class="tarjeta-proyecto">
+                    <h3>Portafolio </h3>
+                    <p>Portafolio web desarrollado con HTML, CSS y JavaScript.</p>
+                    <a href="https://github.com/" target="_blank" class="btn-proyecto">Ver en GitHub →</a>
+                </div>
+ 
+
+                <div class="tarjeta-proyecto">
+                    <h3>calculadora</h3>
+                    <p>calculadora basica con HTML, CSS y JavaScript. </p>
+                    <a href="https://github.com/sharick3103/calculadora" target="_blank" class="btn-proyecto">Ver en GitHub →</a>
+                </div>
+ 
+            </div>
+        </section>
+ 
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="" method="post">
+ 
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+ 
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+ 
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+ 
+                <button type="submit" class="btn">Enviar mensaje</button>
+ 
+            </form>
+        </section>
+ 
+    </main>
+ 
+ 
+    <footer>
+        <p> 2026 Sharick Olmos</p>
+    </footer>
+
+    <script src="/script/script.js"></script>
+ 
+</body>
+</html>
