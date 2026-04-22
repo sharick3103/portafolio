@@ -1,21 +1,23 @@
-#  Portafolio Personal — Sharick Olmos
+#  Personal Portfolio — Sharick Olmos
 
-Portafolio web personal desarrollado con HTML5, CSS3 y JavaScript básico.  
-Incluye una página principal y una página secundaria de mascotas.
+Personal web portfolio built with HTML5, CSS3 and basic JavaScript.  
+Includes a main page and a secondary pets page.
+
+link github : https://github.com/sharick3103/portafolio
 
 ---
 
-##  Estructura del proyecto
+##  Project structure
 
 ```
-portafolio/
+portfolio/
 │
-├── index.html          → Página principal (portafolio)
-├── mascotas.html       → Página secundaria (galería de mascotas)
-├── script.js           → Interactividad con JavaScript
+├── index.html          → Main page (portfolio)
+├── mascotas.html       → Secondary page (pets gallery)
+├── script.js           → JavaScript interactivity
 │
 ├── styles/
-│   └── styles.css      → Estilos de todo el sitio
+│   └── styles.css      → Styles for the entire site
 │
 └── imagenes/
     ├── maiz.jpeg
@@ -29,76 +31,77 @@ portafolio/
 
 ---
 
-##  Páginas
+##  Pages
 
-### index.html — Portafolio
-- Encabezado con nombre a la izquierda y menú a la derecha
-- Sección **Sobre mí** con botón que expande el texto
-- Sección **Proyectos** con tarjetas enlazadas
-- Sección **Contacto** con formulario
-- Mensaje de bienvenida que se muestra/oculta con un botón
+### index.html — Portfolio
+- Header with name on the left and menu on the right
+- **About me** section with a button that expands the text
+- **Projects** section with linked cards
+- **Contact** section with a form
+- Welcome message that shows/hides with a button
 
-### mascotas.html — Mis Mascotas
-- Galería con 7 mascotas en formato de tarjetas
-- Imagen, nombre y descripción de cada una
-- Enlace para volver al portafolio
-
----
-
-##  Estilos (styles.css)
-
-Un solo archivo CSS para ambas páginas.  
-Usa **variables CSS** para los colores principales:
-
-| Variable | Color | Uso |
-|---|---|---|
-| `--verde` | #45ad51 | Header, botones, bordes |
-| `--morado` | #6c3fc5 | Títulos, tarjetas |
-| `--fondo` | #f5f0ff | Fondo de la página |
-| `--blanco` | #ffffff | Fondo de secciones |
+### mascotas.html — My Pets
+- Gallery with 7 pets displayed as cards
+- Image, name and description for each one
+- Link to go back to the portfolio
 
 ---
 
-##  Diseño responsivo
+## Styles (styles.css)
 
-El sitio se adapta a distintos tamaños de pantalla:
+A single CSS file for both pages.  
+Uses **CSS variables** for the main colors:
 
-| Pantalla | Proyectos | Galería mascotas |
+| Variable | Color | Usage |
 |---|---|---|
-| Escritorio (+768px) | 3 columnas | 3 columnas |
-| Tablet (hasta 768px) | 2 columnas | 3 columnas |
-| Móvil (hasta 480px) | 1 columna | 2 columnas |
+| `--green` | #45ad51 | Header, buttons, borders |
+| `--purple` | #6c3fc5 | Titles, cards |
+| `--background` | #f5f0ff | Page background |
+| `--white` | #ffffff | Section background |
+
+---
+
+##  Responsive design
+
+The site adapts to different screen sizes:
+
+| Screen | Projects | Pets gallery |
+|---|---|---|
+| Desktop (+768px) | 3 columns | 3 columns |
+| Tablet (up to 768px) | 2 columns | 3 columns |
+| Mobile (up to 480px) | 1 column | 2 columns |
 
 ---
 
 ##  JavaScript (script.js)
 
-Dos interacciones simples:
+Two simple interactions:
 
-1. **Botón "Leer más sobre mí"** → cambia el texto del párrafo de presentación
-2. **Botón "Mostrar bienvenida"** → muestra u oculta un mensaje en pantalla
+1. **"Read more about me" button** → changes the text in the about me paragraph
+2. **"Show welcome message" button** → shows or hides a message on screen
 
-Se usa `const` para elementos que no cambian y `let` para valores que sí cambian.
+`const` is used for elements that don't change and `let` for values that do.
 
 ---
 
-##  Tecnologías usadas
+## 🛠️ Technologies used
 
 - HTML5
 - CSS3 (Flexbox, Grid, variables, media queries)
-- JavaScript básico (DOM, eventos)
+- Basic JavaScript (DOM, events)
 
 ---
 
-##  Cómo abrirlo
+##  How to open it
 
-1. Descarga o clona el proyecto
-2. Abre el archivo `index.html` en tu navegador
-3. Listo
+1. Download or clone the project
+2. Open the `index.html` file in your browser
+3. Done
 
-> No necesita instalación ni servidor. Funciona directamente en el navegador.
+> No installation or server needed. Works directly in the browser.
 
 ---
 
+##  Author
 
-**Sharick Olmos** — Desarrolladora Web en formación
+**Sharick Olmos** 
